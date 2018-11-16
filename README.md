@@ -1,3 +1,3 @@
 # spring-boot-app
 
-https://travis-ci.org/mleyb/spring-boot-app.svg?branch=master
+[![Build Status](https://travis-ci.org/mleyb/spring-boot-app.svg?branch=master)](https://travis-ci.org/mleyb/spring-boot-app)
