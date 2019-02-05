@@ -5,4 +5,4 @@ pipeline:
       - GRADLE_USER_HOME=~/.gradle
     commands:
       - chmod +x ./gradlew
-      - ./gradlew jar
+      - ./gradlew clean test build
