@@ -12,19 +12,6 @@ pool:
 
 steps:
 
-- task: PythonScript@0
-  inputs:
-    scriptSource: 'inline'
-    script: |
-      import os
-      import json
-      import adal
-      
-      _SERVICE_PRINCIPAL_ID = 'servicePrincipalId'
-      _SERVICE_PRINCIPAL_TENANT = 'servicePrincipalTenant'
-      _TOKEN_ENTRY_TOKEN_TYPE = 'tokenType'
-      _ACCESS_TOKEN = 'accessToken'
-
 - task: Gradle@2
   inputs:
     workingDirectory: ''
